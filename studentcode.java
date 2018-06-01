@@ -2,7 +2,7 @@ class studentcode extends mazedfs
 {
 	public studentcode(int bh0, int mh0, int mw0) // don't change constructor
 	{
-		super(bh0,mh0,mw0); 
+		super(bh0,mh0,mw0);
 	}
 
 	public void digout(int y, int x)   // modify this function
@@ -45,6 +45,7 @@ class studentcode extends mazedfs
 				digout(ny,nx);
 			}
 		}//done!
+		drawblock (1,0);
 	}//digout
 }//studentcode subclass
 
